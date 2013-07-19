@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="PHP-WebServer" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" singleton="true" document_root="$PROJECT_DIR$/web">
+    <RunnerSettings RunnerId="PhpRunner" />
+    <ConfigurationWrapper RunnerId="PhpRunner" />
+    <method>
+      <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_PHP Clear Cache" />
+      <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_PHP Copy Assets" />
+    </method>
+  </configuration>
+</component>

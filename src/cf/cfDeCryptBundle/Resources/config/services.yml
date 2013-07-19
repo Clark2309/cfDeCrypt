@@ -1,0 +1,7 @@
+parameters:
+#    cf_de_crypt.example.class: cf\cfDeCryptBundle\Example
+
+services:
+#    cf_de_crypt.example:
+#        class: %cf_de_crypt.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,30 @@
+{# src/cf/cfDeCryptBundle/Resources/views/Page/contact.html.twig #}
+{% extends 'cfDeCryptBundle::layout.html.twig' %}
+
+{% block title %}Contact{% endblock%}
+
+{% block body %}
+    <header>
+        <h1>Contact Clark2309</h1>
+    </header>
+
+    {% if app.session.hasFlash('cf-notice') %}
+        <div class="cf-notice">
+            {{ app.session.flash('cf-notice') }}
+        </div>
+    {% endif %}
+
+    <p>Want to contact Clark2309?</p>
+    <form action="{{ path('cfDeCryptBundle_contact') }}" method="post" {{ form_enctype(form) }} class="cfForm">
+        {{ form_errors(form) }}
+
+        {{ form_row(form.name) }}
+        {{ form_row(form.email) }}
+        {{ form_row(form.subject) }}
+        {{ form_row(form.body) }}
+
+        {{ form_rest(form) }}
+
+        <input type="submit" value="Submit" />
+    </form>
+{% endblock %}

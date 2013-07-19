@@ -1,0 +1,4 @@
+# src/cf/cfDeCryptBundle/Resources/config/config.yml
+parameters:
+    # Contact email address
+    cfDeCrpyt.emails.contact_email: christof@hurstweb.de
