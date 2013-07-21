@@ -1,0 +1,20 @@
+{% extends 'cfDeCryptBundle::layout.html.twig' %}
+
+{% block title %}ROT13 Decode{% endblock%}
+
+{% block body %}
+    <header>
+        <h1>ROT13 Decode</h1>
+    </header>
+
+    <form action="{{ path('cfDeCryptBundle_rot13') }}" method="post" {{ form_enctype(form) }} class="cfForm">
+        {{ form_errors(form) }}
+
+        {{ form_row(form.encodedText) }}
+        {{ form_row(form.decodedText) }}
+
+        {{ form_rest(form) }}
+
+        <input type="submit" value="Decode" />
+    </form>
+{% endblock %}

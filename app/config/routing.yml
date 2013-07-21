@@ -15,3 +15,9 @@ cfDeCryptBundle_contact:
     defaults: { _controller: cfDeCryptBundle:Page:contact }
     requirements:
         _method:  GET|POST
+
+cfDeCryptBundle_rot13:
+    pattern:  /rot13
+    defaults: { _controller: cfDeCryptBundle:Rot13:show }
+    requirements:
+        _method:  GET|POST
