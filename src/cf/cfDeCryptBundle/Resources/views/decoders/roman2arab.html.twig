@@ -7,11 +7,15 @@
         <h1>Roman2Arab Decode</h1>
     </header>
 
-    <form action="{{ path('cfDeCryptBundle_roman2arab') }}" novalidate method="post" {{ form_enctype(form) }} class="cfForm">
+    <form action="{{ path('cfDeCryptBundle_roman2arab') }}" method="post" {{ form_enctype(form) }} class="cfForm">
         {{ form_errors(form) }}
 
         {{ form_row(form.encodedText) }}
-        {{ form_row(form.decode) }}
+        <div>
+            {{ form_label(form.decode) }}
+            {{ form_widget(form.decode) }}
+            {{ form_widget(form.encode) }}
+        </div>
 
         {{ form_rest(form) }}
     </form>
