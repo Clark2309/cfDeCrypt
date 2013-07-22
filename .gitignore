@@ -1,3 +1,5 @@
+.idea/cfDeCrypt.iml
+.idea/workspace.xml
 /web/bundles/
 /app/bootstrap.php.cache
 /app/cache/*
