@@ -16,7 +16,7 @@ class SimpleDecodingType extends AbstractDecodingType {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder->add('encodedText', 'textarea');
-        $builder->add('decodedText', 'textarea');
+        $builder->add('decode', 'submit');
     }
 
     /**

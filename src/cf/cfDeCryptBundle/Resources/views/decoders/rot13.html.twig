@@ -7,14 +7,16 @@
         <h1>ROT13 Decode</h1>
     </header>
 
-    <form action="{{ path('cfDeCryptBundle_rot13') }}" method="post" {{ form_enctype(form) }} class="cfForm">
+    <form action="{{ path('cfDeCryptBundle_rot13') }}" novalidate method="post" {{ form_enctype(form) }} class="cfForm">
         {{ form_errors(form) }}
 
         {{ form_row(form.encodedText) }}
-        {{ form_row(form.decodedText) }}
+        {{ form_row(form.decode) }}
 
         {{ form_rest(form) }}
-
-        <input type="submit" value="Decode" />
     </form>
+
+    <div class="decodedText">
+        <p>{{ decoding.decodedText }}</p>
+    </div>
 {% endblock %}

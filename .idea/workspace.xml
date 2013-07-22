@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b0f06b5-454d-454a-9a95-bc48affc6273" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Form/AbstractDecodingType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Controller/Rot13Controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Entity/SimpleDecoding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Form/SimpleDecodingType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/decoders/rot13.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/app/SymfonyRequirements.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cfDeCrypt.iml" afterPath="$PROJECT_DIR$/.idea/cfDeCrypt.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Controller/Roman2ArabController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/page/sidebar.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Controller/Rot13Controller.php" afterPath="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Controller/Rot13Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Form/SimpleDecodingType.php" afterPath="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Form/SimpleDecodingType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/public/css/cf.css" afterPath="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/public/css/cf.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/decoders/rot13.html.twig" afterPath="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/decoders/rot13.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/screen.css" afterPath="$PROJECT_DIR$/web/css/screen.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cfDeCrypt.iws" />
@@ -34,22 +31,24 @@
     <file path="/a.twig" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1373983248959" ignored="false" />
     <file path="/a.xml" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1373983253696" ignored="false" />
     <file path="/about.html.twig" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1373983390152" ignored="false" />
-    <file path="/screen.css" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1373983815258" ignored="false" />
+    <file path="/screen.css" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374491916968" ignored="false" />
     <file path="/contact.html.twig" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374236979556" ignored="false" />
     <file path="/Enquiry.php" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374061294926" ignored="false" />
-    <file path="/cf.css" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1373987321351" ignored="false" />
+    <file path="/cf.css" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374491115316" ignored="false" />
     <file path="/parameters.yml" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374236483195" ignored="false" />
     <file path="/config.yml" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374237512120" ignored="false" />
     <file path="/contactEmail.txt.twig" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374240398510" ignored="false" />
     <file path="$PROJECT_DIR$/../Test/composer.json" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374243337978" ignored="false" />
     <file path="/dummy.txt" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374421454070" ignored="false" />
-    <file path="/Dummy.txt" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374249329005" ignored="false" />
+    <file path="/Dummy.txt" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374482970225" ignored="false" />
     <file path="/AppKernel.php" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374419920636" ignored="false" />
     <file path="/BasicDecodingFormType.php" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374428822581" ignored="false" />
     <file path="/SimpleDecoding.php" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374429185059" ignored="false" />
-    <file path="/Rot13Controller.php" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374430519858" ignored="false" />
-    <file path="/rot13.html.twig" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374429720111" ignored="false" />
-    <file path="/SimpleDecodingType.php" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374429868435" ignored="false" />
+    <file path="/Rot13Controller.php" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374490209264" ignored="false" />
+    <file path="/rot13.html.twig" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374490346302" ignored="false" />
+    <file path="/SimpleDecodingType.php" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374490725241" ignored="false" />
+    <file path="/sidebar.html.twig" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374492275840" ignored="false" />
+    <file path="/Roman2ArabController.php" changelist="5b0f06b5-454d-454a-9a95-bc48affc6273" time="1374494820583" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,24 +72,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PageController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Controller/PageController.php">
+      <file leaf-file-name="Rot13Controller.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Controller/Rot13Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="39" selection-start="264" selection-end="283" vertical-scroll-proportion="-5.0">
-              <folding>
-                <element signature="e#105#143#0" expanded="true" />
-              </folding>
+            <state line="32" column="0" selection-start="909" selection-end="909" vertical-scroll-proportion="-15.692307">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rot13Controller.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Controller/Rot13Controller.php">
+      <file leaf-file-name="Roman2ArabController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Controller/Roman2ArabController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="54" selection-start="883" selection-end="883" vertical-scroll-proportion="-16.346153">
-              <folding>
-                <element signature="e#203#248#0" expanded="true" />
-              </folding>
+            <state line="21" column="0" selection-start="557" selection-end="557" vertical-scroll-proportion="0.3235725">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,37 +93,46 @@
       <file leaf-file-name="rot13.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/decoders/rot13.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="-9.153846">
+            <state line="18" column="29" selection-start="474" selection-end="474" vertical-scroll-proportion="-11.769231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleDecodingType.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="0" selection-start="884" selection-end="1272" vertical-scroll-proportion="-15.692307">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="screen.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/screen.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="35" selection-start="1980" selection-end="1980" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cf.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/bundles/cfdecrypt/css/cf.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="40" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleDecodingType.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Form/SimpleDecodingType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="24" selection-start="500" selection-end="500" vertical-scroll-proportion="0.29912025">
+            <state line="18" column="39" selection-start="515" selection-end="515" vertical-scroll-proportion="-7.8461537">
               <folding>
                 <element signature="e#196#236#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnquiryType.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Form/EnquiryType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="25" selection-start="505" selection-end="522" vertical-scroll-proportion="-12.423077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="55" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -160,28 +164,25 @@
       <MyDateState />
     </option>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/config/config.yml" />
-        <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/page/contactEmail.txt.twig" />
-        <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Controller/PageController.php" />
-        <option value="$PROJECT_DIR$/app/config/config_dev.yml" />
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Form/BasicDecodingFormType.php" />
         <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Form/AbstractDecodingFormType.php" />
         <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Form/SimpleDecodingFormType.php" />
-        <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Entity/SimpleDecoding.php" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/decoders/rot13.html.twig" />
         <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Form/AbstractDecodingType.php" />
-        <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Controller/Rot13Controller.php" />
+        <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Entity/SimpleDecoding.php" />
         <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Form/SimpleDecodingType.php" />
+        <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/decoders/rot13.html.twig" />
+        <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/public/css/cf.css" />
+        <option value="$PROJECT_DIR$/web/bundles/cfdecrypt/css/cf.css" />
+        <option value="$PROJECT_DIR$/web/css/screen.css" />
+        <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/page/sidebar.html.twig" />
+        <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/page/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Controller/Rot13Controller.php" />
+        <option value="$PROJECT_DIR$/src/cf/cfDeCryptBundle/Controller/Roman2ArabController.php" />
       </list>
     </option>
   </component>
@@ -297,6 +298,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cfDeCrypt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cfDeCrypt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cfDeCrypt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cfDeCrypt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -320,156 +353,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cfDeCryptBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cfDeCrypt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cfDeCrypt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cfDeCryptBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cfDeCrypt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cfDeCrypt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cfDeCryptBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cfDeCrypt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cfDeCrypt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cfDeCryptBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="decoders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cfDeCrypt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cfDeCrypt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cfDeCryptBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cfDeCrypt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cfDeCrypt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cfDeCryptBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Form" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -553,7 +436,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -564,16 +451,18 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chu\PhpstormProjects\cfDeCrypt\src\cf\cfDeCryptBundle\Controller" />
+      <recent name="C:\Users\chu\PhpstormProjects\cfDeCrypt\web\bundles\cfdecrypt\css" />
       <recent name="C:\Users\chu\PhpstormProjects\cfDeCrypt\src\cf\cfDeCryptBundle\Resources\views\page" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -673,14 +562,13 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972737" sideWeight="0.84210527" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988003" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988003" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988003" sideWeight="0.84210527" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25517994" sideWeight="0.84210527" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25845146" sideWeight="0.8422857" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15789473" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12814645" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15771429" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -689,6 +577,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12814645" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -754,125 +643,119 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+    <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Entity/Enquiry.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="4" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.12781955">
-          <folding>
-            <element signature="e#7#47#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/AbstractType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="15" selection-start="412" selection-end="412" vertical-scroll-proportion="0.2641243">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="31" column="0" selection-start="411" selection-end="870" vertical-scroll-proportion="-18.307692">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Entity/SimpleDecoding.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="20" selection-start="747" selection-end="747" vertical-scroll-proportion="0.9124294">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/page/about.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="66" selection-end="1017" vertical-scroll-proportion="0.024817519">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/page/contact.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="436" selection-end="812" vertical-scroll-proportion="-18.961538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Entity/Enquiry.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="16" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="-6.5384617">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Form/AbstractDecodingType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="302" selection-end="322" vertical-scroll-proportion="0.19209039">
+        <state line="14" column="24" selection-start="302" selection-end="322" vertical-scroll-proportion="0.19912152">
           <folding>
             <element signature="e#196#236#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+    <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/page/contactEmail.txt.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="55" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Controller/PageController.php">
+    <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/page/contact.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="264" selection-end="283" vertical-scroll-proportion="-5.0">
-          <folding>
-            <element signature="e#105#143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Controller/Rot13Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="54" selection-start="883" selection-end="883" vertical-scroll-proportion="-16.346153">
-          <folding>
-            <element signature="e#203#248#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/decoders/rot13.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="-9.153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Form/EnquiryType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="505" selection-end="522" vertical-scroll-proportion="-12.423077">
+        <state line="25" column="14" selection-start="736" selection-end="736" vertical-scroll-proportion="0.6439394">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Form/SimpleDecodingType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="24" selection-start="500" selection-end="500" vertical-scroll-proportion="0.29912025">
+        <state line="18" column="39" selection-start="515" selection-end="515" vertical-scroll-proportion="-7.8461537">
           <folding>
             <element signature="e#196#236#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="35" selection-start="1980" selection-end="1980" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/cfdecrypt/css/cf.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="40" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="884" selection-end="1272" vertical-scroll-proportion="-15.692307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/page/sidebar.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="14" selection-start="430" selection-end="430" vertical-scroll-proportion="0.34846267">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/page/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="14" selection-start="169" selection-end="169" vertical-scroll-proportion="0.12445095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/public/css/cf.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="40" selection-start="830" selection-end="830" vertical-scroll-proportion="0.23977433">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Resources/views/decoders/rot13.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="29" selection-start="474" selection-end="474" vertical-scroll-proportion="-11.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Controller/Rot13Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="909" selection-end="909" vertical-scroll-proportion="-15.692307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cf/cfDeCryptBundle/Controller/Roman2ArabController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="557" selection-end="557" vertical-scroll-proportion="0.3235725">
+          <folding />
         </state>
       </provider>
     </entry>

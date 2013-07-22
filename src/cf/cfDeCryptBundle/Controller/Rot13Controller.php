@@ -30,7 +30,8 @@ class Rot13Controller extends Controller {
         }
 
         return $this->render('cfDeCryptBundle:Decoders:rot13.html.twig', array(
-            'form' => $form->createView()
+            'form'      => $form->createView(),
+            'decoding'  => $decoding
         ));
     }
 
