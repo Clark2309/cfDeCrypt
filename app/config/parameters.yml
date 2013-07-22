@@ -1,0 +1,14 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: cfDeCrypt
+    database_user: root
+    database_password: null
+    mailer_transport: 1und1
+    mailer_host: smtp.1und1.com
+    mailer_user: p3957479
+    mailer_password: 523312
+    locale: de
+    secret: 7a796efffaaa4514ecd06a0f22a9dcf3
