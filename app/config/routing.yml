@@ -21,3 +21,9 @@ cfDeCryptBundle_rot13:
     defaults: { _controller: cfDeCryptBundle:Rot13:show }
     requirements:
         _method:  GET|POST
+
+cfDeCryptBundle_roman2arab:
+    pattern:  /roman2arab
+    defaults: { _controller: cfDeCryptBundle:Roman2Arab:show }
+    requirements:
+        _method:  GET|POST

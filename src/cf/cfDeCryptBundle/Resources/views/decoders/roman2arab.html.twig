@@ -1,0 +1,22 @@
+{% extends 'cfDeCryptBundle::layout.html.twig' %}
+
+{% block title %}Roman2Arab Decode{% endblock%}
+
+{% block body %}
+    <header>
+        <h1>Roman2Arab Decode</h1>
+    </header>
+
+    <form action="{{ path('cfDeCryptBundle_roman2arab') }}" novalidate method="post" {{ form_enctype(form) }} class="cfForm">
+        {{ form_errors(form) }}
+
+        {{ form_row(form.encodedText) }}
+        {{ form_row(form.decode) }}
+
+        {{ form_rest(form) }}
+    </form>
+
+    <div class="decodedText">
+        <p>{{ decoding.decodedText }}</p>
+    </div>
+{% endblock %}
