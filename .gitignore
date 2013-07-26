@@ -7,3 +7,5 @@
 /app/logs/*
 /build/
 /composer.phar
+/.idea/cfDeCrypt.iml
+/.idea/workspace.xml
