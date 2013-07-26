@@ -16,14 +16,23 @@ cfDeCryptBundle_contact:
     requirements:
         _method:  GET|POST
 
-cfDeCryptBundle_rot13:
-    pattern:  /rot13
-    defaults: { _controller: cfDeCryptBundle:Rot13:show }
+
+
+cfDeCryptBundle_enigma:
+    pattern:  /enigma
+    defaults: { _controller: cfDeCryptBundle:Crypt/Enigma:show }
     requirements:
         _method:  GET|POST
 
 cfDeCryptBundle_roman2arab:
     pattern:  /roman2arab
-    defaults: { _controller: cfDeCryptBundle:Roman2Arab:show }
+    defaults: { _controller: cfDeCryptBundle:Crypt/Roman2Arab:show }
     requirements:
         _method:  GET|POST
+
+cfDeCryptBundle_rot13:
+    pattern:  /rot13
+    defaults: { _controller: cfDeCryptBundle:Crypt/Roman2Arab:show }
+    requirements:
+        _method:  GET|POST
+
