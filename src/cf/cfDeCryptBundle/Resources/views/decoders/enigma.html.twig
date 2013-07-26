@@ -1,0 +1,25 @@
+{% extends 'cfDeCryptBundle::layout.html.twig' %}
+
+{% block title %}Enigma Decode{% endblock%}
+
+{% block body %}
+    <header>
+        <h1>Enigma Decode</h1>
+    </header>
+
+    <form action="{{ path('cfDeCryptBundle_enigma') }}" novalidate method="post" {{ form_enctype(form) }} class="cfForm">
+        {{ form_errors(form) }}
+
+        {{ form_row(form.enigmaModel) }}
+        {{ form_row(form.enigmaRotor1) }}
+        {{ form_row(form.enigmaRotor2) }}
+        {{ form_row(form.enigmaRotor3) }}
+        {{ form_row(form.encodedText) }}
+        {{ form_row(form.decode) }}
+
+    </form>
+
+    <div class="decodedText">
+        <p>{{ decoding.decodedText }}</p>
+    </div>
+{% endblock %}

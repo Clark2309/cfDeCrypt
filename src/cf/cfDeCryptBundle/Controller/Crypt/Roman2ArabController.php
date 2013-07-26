@@ -7,8 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-namespace cf\cfDeCryptBundle\Controller;
-
+namespace cf\cfDeCryptBundle\Controller\Crypt;
 
 use cf\cfDeCryptBundle\Entity\SimpleDecoding;
 use cf\cfDeCryptBundle\Form\SimpleDecodingType;
