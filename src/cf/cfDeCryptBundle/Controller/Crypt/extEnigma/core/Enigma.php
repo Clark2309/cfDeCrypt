@@ -55,8 +55,8 @@ class Enigma
 	private $ec;
 
 	/**
-	 * Constructor sets up the plugboard and creates the rotors and reflectros available for the given model.
-	 * The initital rotors and reflectros are mounted.
+	 * Constructor sets up the plugboard and creates the rotors and reflectors available for the given model.
+	 * The initital rotors and reflectors are mounted.
 	 * @param integer
 	 * @param array integer IDs for the rotors for the initial setup
 	 * @param integer
@@ -116,19 +116,21 @@ class Enigma
 	{
 		$this->advance();
 		// TODO: Test Enigma
-		echo $letter;
 		$letter = $this->ec->enigma_l2p($letter);
-		$letter = $this->plugboard->processLetter($letter);
+        echo "Input: ".$letter."<br />";
+//		$letter = $this->plugboard->processLetter($letter);
+//        echo "After plugboard: ".$letter."<br />";
 		for ( $idx = 0; $idx < sizeof($this->rotors); $idx++ ) {
 			$letter = $this->rotors[$idx]->processLetter1stPass($letter);
+            echo "After rotor ".$idx.": ".$letter."<br />";
 		}
 		$letter = $this->reflector->processLetter($letter);
+        echo "After reflector: ".$letter."<br />";
 		for ( $idx = (sizeof($this->rotors) - 1); $idx > -1; $idx-- ) {
 			$letter = $this->rotors[$idx]->processLetter2ndPass($letter);
+            echo "After rotor ".$idx.": ".$letter."<br />";
 		}
-		// TODO: Test Enigma
-		echo $letter;
-		$letter = $this->plugboard->processLetter($letter);
+//		$letter = $this->plugboard->processLetter($letter);
 		$letter = $this->ec->enigma_p2l($letter);
 		return $letter;
 	}
@@ -146,11 +148,12 @@ class Enigma
 		if ( $this->availablerotors[$rotor]->inUse ) {
 			return;
 		}
-		if ( array_key_exists($position, $this->rotors) ) {
-			$this->rotors[$position]->inUse = false;
-		}
+//		if ( array_key_exists($position, $this->rotors) ) {
+//			$this->rotors[$position]->inUse = false;
+//		}
 		$this->rotors[$position] = $this->availablerotors[$rotor];
-		$this->rotors[$position]->inUse = true;
+//		$this->rotors[$position]->inUse = true;
+        $this->availablerotors[$rotor]->inUse = true;
 	}
 
 	/**

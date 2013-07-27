@@ -58,7 +58,7 @@ class EnigmaPlugboard
 	 * Send a letter through the wiring.
 	 * Because pins are connected in pairs, there is no difference if
 	 * processLetter1stPass() or processLetter2ndPass() is used.
-	 * @param integer letter to process
+	 * @param integer
 	 * @return integer resulting letter
 	 */
 	public function processLetter($letter)
@@ -70,8 +70,8 @@ class EnigmaPlugboard
 
 	/**
 	 * Connect 2 letters.
-	 * @param integer letter 1 to connect
-	 * @param integer letter 2 to connect
+	 * @param integer
+	 * @param integer
 	 * @return void
 	 */
 	public function plugLetters($letter1, $letter2)

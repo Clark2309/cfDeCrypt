@@ -35,11 +35,11 @@ class EnigmaController extends Controller {
 		// TODO: Test Enigma
 		$rotors = array(EnigmaConstants::ENIGMA_ROTOR_I, EnigmaConstants::ENIGMA_ROTOR_II, EnigmaConstants::ENIGMA_ROTOR_III);
 		$enigma = new Enigma(EnigmaConstants::ENIGMA_WM, $rotors, EnigmaConstants::ENIGMA_REFLECTOR_B);
-		$enigma->setPosition(EnigmaConstants::ENIGMA_ROTOR_1, "M");
-		$enigma->setRingstellung(EnigmaConstants::ENIGMA_ROTOR_1, "B");
-		$enigma->plugLetters("A", "C");
-		$enigma->plugLetters("B", "Z");
-		$enigma->unplugLetters("A");
+		$enigma->setPosition(EnigmaConstants::ENIGMA_ROTOR_1, "A");
+		$enigma->setRingstellung(EnigmaConstants::ENIGMA_ROTOR_1, "A");
+//		$enigma->plugLetters("A", "C");
+//		$enigma->plugLetters("B", "Z");
+//		$enigma->unplugLetters("A");
 
 		$l = "A";
 		$decoding->setDecodedText( "before: ".$enigma->getPosition(EnigmaConstants::ENIGMA_ROTOR_3)." ".$enigma->getPosition(EnigmaConstants::ENIGMA_ROTOR_2)." ".$enigma->getPosition(EnigmaConstants::ENIGMA_ROTOR_1)."<br>".

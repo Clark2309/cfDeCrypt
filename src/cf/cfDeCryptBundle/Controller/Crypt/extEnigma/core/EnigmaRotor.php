@@ -101,7 +101,8 @@ class EnigmaRotor
 	 */
 	public function processLetter1stPass($letter)
 	{
-		$letter = ($letter - $this->ringstellung + $this->position + EnigmaConstants::ENIGMA_ALPHABET_SIZE) % EnigmaConstants::ENIGMA_ALPHABET_SIZE;
+        echo "Wiring of rotor: ".$this->wiring."<br />  ";
+        $letter = ($letter - $this->ringstellung + $this->position + EnigmaConstants::ENIGMA_ALPHABET_SIZE) % EnigmaConstants::ENIGMA_ALPHABET_SIZE;
 		$letter = $this->wiring->processLetter1stPass($letter);
 		$letter = ($letter + $this->ringstellung - $this->position + EnigmaConstants::ENIGMA_ALPHABET_SIZE) % EnigmaConstants::ENIGMA_ALPHABET_SIZE;
 		return $letter;
